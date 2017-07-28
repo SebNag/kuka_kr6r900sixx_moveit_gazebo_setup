@@ -33,4 +33,7 @@ This package contains the files required to simulate the _kuka kr6r900sixx_ mani
 
 ## Useful Links 
 
-
+* Based on [ABB Gazebo Simulation](https://github.com/ros-industrial/abb_experimental/tree/kinetic-devel/abb_irb120_gazebo)
+* Install the `ros_gazebo_pkgs` [HowTo](http://gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros) 
+* URDF in gazebo [Tutorial](http://gazebosim.org/tutorials?tut=ros_urdf&cat=connect_ros) 
+* Gazebo and ros_control [Tutorial](http://gazebosim.org/tutorials?tut=ros_control&cat=connect_ros) 
