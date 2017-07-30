@@ -2,9 +2,10 @@
 
 ## Overview
 
-This package contains the configuration files and ros packages required to simulate the _kuka kr6r900sixx_ manipulator in Gazebo together with `ros_control` and the `MoveIt!` motion planner. 
+This package contains the configuration files and ros packages required to simulate the _kuka kr6r900sixx_ manipulator in `gazebo` together with `ros_control` and the `MoveIt!` motion planner. 
 
- * _launch directory_:  
+Directory structure of the `kuka_experimantal/kuka_kr6_gazebo` package: 
+ * _launch directory_:  
     * Requires a valid `xarco URDF model` in the `kuka_kr6_support` package to load the robot model onto the parameter server. The robot model parameter is saved as `robot_description`.  
     * Inits and starts the `gazebo ros_control interface`
 
