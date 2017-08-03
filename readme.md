@@ -2,19 +2,20 @@
 
 ## Overview
 
-This package contains the files required to simulate the _kuka kr6r900sixx_ manipulator in Gazebo. 
+This package contains the configuration files and ros packages required to simulate the _kuka kr6r900sixx_ manipulator in `gazebo` together with the `ros_control` packages and the `MoveIt!` motion planner. 
 
- * _launch directory_:  
-    * Requires a valid `xarco URDF model` in the `kuka_kr6_support` package to load the robot model onto the parameter server. The robot model parameter is saved as `robot_description`.  
+Directory structure of the `kuka_experimantal/kuka_kr6_gazebo` package: 
+ * _launch directory_:  
+    * Requires a valid `xarco URDF model` in the `kuka_experimantal/kuka_kr6_support` package to load the robot model onto the parameter server. The robot model parameter is saved as `robot_description`.  
     * Inits and starts the `gazebo ros_control interface`
 
-* _config:_
+* _config directory:_
     * `joint_state_controller.yaml` joint state controller to publishes the joint values of the robot 
     * `arm_controller.yaml` JointTrajectoryController which takes in a trajector e.g. from moveit and drives the joints of the robot  
 
-* _urdf:_
-    * elements required by gazebo to make the urdf file provided in the `kuka_experimental` package usable with gazebo are inserted into the `kuka_kr6r900sixx_macro.xarco` file!
-    * The currently used _intertia_ elements are **not well/randomly defined**, values were added only to provide a functional test simulation! Basic transmission elements have been added to the URDF files. Further improvement may be required to acquire a more realistic simulation.  
+* _urdf directory:_
+    * xml elements, which are required by gazebo to make the urdf file(s) provided in the `kuka_experimental/kuka_kr6_support` package usable with gazebo, are inserted into the `kuka_kr6r900sixx_macro.xarco` file!
+    * The currently used _intertia_ xml elements are **not well/randomly defined**, values were added only to provide a functional test simulation! Basic transmission elements have been added to the URDF files. Further improvement may be required to acquire a more realistic simulation.  
 
 ## Build the setup 
 
