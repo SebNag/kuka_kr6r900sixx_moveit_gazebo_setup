@@ -1,0 +1,24 @@
+[submodule "common_msgs"]
+	path = src/common_msgs
+	url = https://github.com/ros/common_msgs.git
+    branch = jade-devel
+[submodule "geometry2"]
+	path = src/geometry2
+	url = https://github.com/ros/geometry2.git
+    branch = indigo-devel
+[submodule "image_common"]
+	path = src/image_common
+	url = https://github.com/ros-perception/image_common.git
+    branch = hydro-devel
+[submodule "industrial_core"]
+	path = src/industrial_core
+	url = https://github.com/ros-industrial/industrial_core.git
+    branch = kinetic-devel
+[submodule "robot_state_publisher"]
+	path = src/robot_state_publisher
+	url = https://github.com/ros/robot_state_publisher.git
+    branch = kinetic-devel
+[submodule "ros_control"]
+	path = src/ros_control
+	url = https://github.com/ros-controls/ros_control.git
+    branch = kinetic-devel

@@ -26,7 +26,7 @@ This package contains the files required to simulate the _kuka kr6r900sixx_ mani
 ## Using Moveit! together with Gazebo Simulator
 
 1. Bring the robot model into gazebo and load the `ros_control` controllers:
-   ```roslaunch kuka_kr6_gazebo kr6r900sixx.launch``` 
+   ```roslaunch kuka_kr6_gazebo kr6r900sixx_gazebo.launch``` 
 
 2. Launch moveit! and ensure that it is configured to run alongside Gazebo:
 ```roslaunch kuka_kr6r900sixx_moveit_config moveit_planning_execution_rsi.launch sim:=true``` 
